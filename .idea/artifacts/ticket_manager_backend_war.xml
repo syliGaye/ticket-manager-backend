@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ticket-manager-backend:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ticket-manager-backend</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ticketmanager-backend.war">
+      <element id="artifact" artifact-name="ticket-manager-backend:war exploded" />
+    </root>
+  </artifact>
+</component>

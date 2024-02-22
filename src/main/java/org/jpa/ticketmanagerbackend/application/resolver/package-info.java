@@ -1,0 +1,1 @@
+package org.jpa.ticketmanagerbackend.application.resolver;
